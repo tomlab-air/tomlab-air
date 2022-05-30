@@ -193,7 +193,7 @@ function moveObj(match_array) {
   }
 }
 
-if (window.ontouchstart == 'undefined') {
+if (window.ontouchstart == undefined) {
   // タップできない端末の場合、'click'を登録
   document.addEventListener('click', showEvent);
 } else {
