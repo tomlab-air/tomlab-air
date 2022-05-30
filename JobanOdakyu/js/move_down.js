@@ -197,6 +197,12 @@ function moveObj(match_array) {
 document.addEventListener('click', showEvent);
 document.addEventListener('touchend', showEvent);
 function showEvent(e) {
+  document.getElementById('id_balloon_down0').disabled = true;
+  document.getElementById('id_balloon_down1').disabled = true;
+  document.getElementById('id_balloon_down2').disabled = true;
+  document.getElementById('id_balloon_down3').disabled = true;
+  document.getElementById('id_balloon_down4').disabled = true;
+
   if(e.target.closest('#id_t_icon_down0')) {
     document.getElementById('id_balloon_down0').style.display ="block";
     document.getElementById('id_balloon_down1').style.display ="none";
@@ -234,6 +240,12 @@ function showEvent(e) {
     document.getElementById('id_balloon_down3').style.display ="none";
     document.getElementById('id_balloon_down4').style.display ="none";
   }
+
+  document.getElementById('id_balloon_down0').disabled = false;
+  document.getElementById('id_balloon_down1').disabled = false;
+  document.getElementById('id_balloon_down2').disabled = false;
+  document.getElementById('id_balloon_down3').disabled = false;
+  document.getElementById('id_balloon_down4').disabled = false;
 }
 
 // 祝日判定
