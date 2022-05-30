@@ -193,9 +193,15 @@ function moveObj_up(match_array) {
   }
 }
 
+if (window.ontouchstart == undefined) {
+  // タップできない端末の場合、'click'を登録
+  document.addEventListener('click', showEvent_up);
+} else {
+  // タップできる端末の場合、'touchend'を登録
+  document.addEventListener('touchend', showEvent_up);
+}
+
 // 吹き出し表示&非表示
-document.addEventListener('click', showEvent_up);
-document.addEventListener('touchend', showEvent_up);
 function showEvent_up(e) {
   if(e.target.closest('#id_t_icon_up0')) {
     document.getElementById('id_balloon_up0').style.display ="block";
