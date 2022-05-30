@@ -193,12 +193,12 @@ function moveObj(match_array) {
   }
 }
 
-if (window.ontouchstart == null) {
-  // タップできる端末の場合、'touchend'を登録
-  document.addEventListener('touchend', showEvent);
-} else {
+if (window.ontouchstart == 'undefined') {
   // タップできない端末の場合、'click'を登録
   document.addEventListener('click', showEvent);
+} else {
+  // タップできる端末の場合、'touchend'を登録
+  document.addEventListener('touchend', showEvent);
 }
 
 // 吹き出し表示&非表示
