@@ -194,46 +194,51 @@ function moveObj(match_array) {
 }
 
 // 吹き出し表示&非表示
-// document.addEventListener('click', showEvent);
+document.addEventListener('click', showEvent);
 document.addEventListener('touchend', showEvent);
+touchFlg = true;
 function showEvent(e) {
-  if(e.target.closest('#id_t_icon_down0')) {
-    document.getElementById('id_balloon_down0').style.display ="block";
-    document.getElementById('id_balloon_down1').style.display ="none";
-    document.getElementById('id_balloon_down2').style.display ="none";
-    document.getElementById('id_balloon_down3').style.display ="none";
-    document.getElementById('id_balloon_down4').style.display ="none";
-  } else if(e.target.closest('#id_t_icon_down1')) {
-    document.getElementById('id_balloon_down0').style.display ="none";
-    document.getElementById('id_balloon_down1').style.display ="block";
-    document.getElementById('id_balloon_down2').style.display ="none";
-    document.getElementById('id_balloon_down3').style.display ="none";
-    document.getElementById('id_balloon_down4').style.display ="none";
-  } else if(e.target.closest('#id_t_icon_down2')) {
-    document.getElementById('id_balloon_down0').style.display ="none";
-    document.getElementById('id_balloon_down1').style.display ="none";
-    document.getElementById('id_balloon_down2').style.display ="block";
-    document.getElementById('id_balloon_down3').style.display ="none";
-    document.getElementById('id_balloon_down4').style.display ="none";
-  } else if(e.target.closest('#id_t_icon_down3')) {
-    document.getElementById('id_balloon_down0').style.display ="none";
-    document.getElementById('id_balloon_down1').style.display ="none";
-    document.getElementById('id_balloon_down2').style.display ="none";
-    document.getElementById('id_balloon_down3').style.display ="block";
-    document.getElementById('id_balloon_down4').style.display ="none";
-  } else if(e.target.closest('#id_t_icon_down4')) {
-    document.getElementById('id_balloon_down0').style.display ="none";
-    document.getElementById('id_balloon_down1').style.display ="none";
-    document.getElementById('id_balloon_down2').style.display ="none";
-    document.getElementById('id_balloon_down3').style.display ="none";
-    document.getElementById('id_balloon_down4').style.display ="block";
-  } else {
-    document.getElementById('id_balloon_down0').style.display ="none";
-    document.getElementById('id_balloon_down1').style.display ="none";
-    document.getElementById('id_balloon_down2').style.display ="none";
-    document.getElementById('id_balloon_down3').style.display ="none";
-    document.getElementById('id_balloon_down4').style.display ="none";
+  if(touchFlg) {
+    touchFlg = false;
+    if(e.target.closest('#id_t_icon_down0')) {
+      document.getElementById('id_balloon_down0').style.display ="block";
+      document.getElementById('id_balloon_down1').style.display ="none";
+      document.getElementById('id_balloon_down2').style.display ="none";
+      document.getElementById('id_balloon_down3').style.display ="none";
+      document.getElementById('id_balloon_down4').style.display ="none";
+    } else if(e.target.closest('#id_t_icon_down1')) {
+      document.getElementById('id_balloon_down0').style.display ="none";
+      document.getElementById('id_balloon_down1').style.display ="block";
+      document.getElementById('id_balloon_down2').style.display ="none";
+      document.getElementById('id_balloon_down3').style.display ="none";
+      document.getElementById('id_balloon_down4').style.display ="none";
+    } else if(e.target.closest('#id_t_icon_down2')) {
+      document.getElementById('id_balloon_down0').style.display ="none";
+      document.getElementById('id_balloon_down1').style.display ="none";
+      document.getElementById('id_balloon_down2').style.display ="block";
+      document.getElementById('id_balloon_down3').style.display ="none";
+      document.getElementById('id_balloon_down4').style.display ="none";
+    } else if(e.target.closest('#id_t_icon_down3')) {
+      document.getElementById('id_balloon_down0').style.display ="none";
+      document.getElementById('id_balloon_down1').style.display ="none";
+      document.getElementById('id_balloon_down2').style.display ="none";
+      document.getElementById('id_balloon_down3').style.display ="block";
+      document.getElementById('id_balloon_down4').style.display ="none";
+    } else if(e.target.closest('#id_t_icon_down4')) {
+      document.getElementById('id_balloon_down0').style.display ="none";
+      document.getElementById('id_balloon_down1').style.display ="none";
+      document.getElementById('id_balloon_down2').style.display ="none";
+      document.getElementById('id_balloon_down3').style.display ="none";
+      document.getElementById('id_balloon_down4').style.display ="block";
+    } else {
+      document.getElementById('id_balloon_down0').style.display ="none";
+      document.getElementById('id_balloon_down1').style.display ="none";
+      document.getElementById('id_balloon_down2').style.display ="none";
+      document.getElementById('id_balloon_down3').style.display ="none";
+      document.getElementById('id_balloon_down4').style.display ="none";
+    }
   }
+  touchFlg = true;
 }
 
 // 祝日判定
