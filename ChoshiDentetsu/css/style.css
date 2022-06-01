@@ -283,7 +283,6 @@ footer {
   position: absolute;
   width: 100px;
   text-align: center;
-  right: 5%;
 }
 
 .capture {
@@ -402,6 +401,7 @@ th.width3 {
   }
   .railway {
     width: 80px;
+    right: 10%;
   }
   .capture {
     width: 60%;
