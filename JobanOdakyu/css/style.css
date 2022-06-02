@@ -130,12 +130,12 @@ h1{
 	top:   -5%;
 	bottom:  0;
 	left:  0;
-	right:  230px;
+	right:  250px;
   width: 100px;
   height: 0px;
   margin: auto;
 	font-size: 150%;
-	text-align: center;
+	text-align: right;
 }
 .as-text {
   color: #432;
@@ -369,7 +369,7 @@ th.width3 {
   }
   .s-text {
     font-size: 1.2rem;
-    right:  160px;
+    right:  220px;
   }
   #realtime{
     font-size: 0.7rem;
@@ -415,5 +415,55 @@ th.width3 {
   .capture {
     width: 60%;
     height: 60%;
+  }
+}
+
+@media (max-height: 500px) {
+  .radius {
+  	border: 2px solid #432;
+    width: 15px;
+    height: 15px;
+  }
+  .s-text {
+  	font-size: 90%;
+  }
+  .st0 {
+  	top: -96.0%;
+  }
+  .st1 {
+  	top: -81.0%;
+  }
+  .st2 {
+  	top: -66.0%;
+  }
+  .st3 {
+  	top: -51.0%;
+  }
+  .st4 {
+  	top: -36.0%;
+  }
+  .st5 {
+  	top: -21.0%;
+  }
+  .st6 {
+  	top:  -6.0%;
+  }
+  .st7 {
+  	top:  11.0%;
+  }
+  .st8 {
+  	top:  26.0%;
+  }
+  .st9 {
+  	top:  41.0%;
+  }
+  .st10 {
+  	top:  56.0%;
+  }
+  .st11 {
+  	top:  71.0%;
+  }
+  .st12 {
+  	top:  86.0%;
   }
 }
