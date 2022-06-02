@@ -455,4 +455,12 @@ th.width3 {
   .st9 {
   	top:  84.0%;
   }
+  .t_icon_down {
+    width: 16px;
+    height: 16px;
+  }
+  .t_icon_up {
+    width: 16px;
+    height: 16px;
+  }
 }
