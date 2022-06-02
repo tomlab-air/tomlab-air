@@ -449,21 +449,29 @@ th.width3 {
   	top:  -6.0%;
   }
   .st7 {
-  	top:  11.0%;
+  	top:   9.0%;
   }
   .st8 {
-  	top:  26.0%;
+  	top:  24.0%;
   }
   .st9 {
-  	top:  41.0%;
+  	top:  39.0%;
   }
   .st10 {
-  	top:  56.0%;
+  	top:  54.0%;
   }
   .st11 {
-  	top:  71.0%;
+  	top:  69.0%;
   }
   .st12 {
-  	top:  86.0%;
+  	top:  84.0%;
+  }
+  .t_icon_down {
+    width: 16px;
+    height: 16px;
+  }
+  .t_icon_up {
+    width: 16px;
+    height: 16px;
   }
 }
