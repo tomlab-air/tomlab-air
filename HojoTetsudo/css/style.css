@@ -55,8 +55,6 @@ h1{
     min-height: 84vh;
 		top: 0px;
     position: relative;
-    border-style: solid;
-    border-width: 0 0 0.5px 0;
 }
 
 /* 中央の線路 */
@@ -253,6 +251,10 @@ footer {
   margin: 0 auto;
   padding: 0 2%;
 }
+.c_fotter {
+  border-style: solid;
+  border-width: 0.5px 0 0 0;
+}
 .wrapper {
   max-width: 100%;
   margin: 0 auto;
@@ -341,11 +343,15 @@ th.width3 {
   color: brown;
 }
 
+.pr {
+  position:relative;
+}
 .amazon {
   position: absolute;
   bottom: 0%;
   right: 2%;
   color: rgb(50,122,181);
+  font-size: 120%;
 }
 .amazon:hover {
   opacity: 0.6;
@@ -422,7 +428,10 @@ th.width3 {
     height: 60%;
   }
   .amazon {
-    font-size: 60%;
+    font-size:  100%;
+  }
+  .pr {
+    min-height: 30px;
   }
 }
 
@@ -439,26 +448,26 @@ th.width3 {
   	top: -96.0%;
   }
   .st1 {
-  	top: -76.0%;
+  	top: -70.29%;
   }
   .st2 {
-  	top: -56.0%;
+  	top: -44.57%;
   }
   .st3 {
-  	top: -36.0%;
+  	top: -18.86%;
   }
   .st4 {
-  	top: -16.0%;
+  	top:   6.86%;
   }
   .st5 {
-  	top:   4.0%;
+  	top:  32.57%;
   }
   .st6 {
-  	top:  24.0%;
+  	top:  58.29%;
   }
   .st7 {
-  	top:  44.0%;
-  }
+  	top:  84.0%;
+  }  
   .t_icon_down {
     width: 16px;
     height: 16px;
