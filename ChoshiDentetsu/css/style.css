@@ -353,6 +353,16 @@ th.width3 {
   color: brown;
 }
 
+.amazon {
+  position: absolute;
+  top: 95%;
+  right: 2%;
+  color: rgb(50,122,181);
+}
+.amazon:hover {
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
 
 @media (max-width: 600px) {
   html {
@@ -424,6 +434,9 @@ th.width3 {
     width: 60%;
     height: 60%;
   }
+  .amazon {
+    font-size: 60%;
+  }
 }
 
 @media (max-height: 500px) {
@@ -472,5 +485,8 @@ th.width3 {
   .t_icon_up {
     width: 16px;
     height: 16px;
+  }
+  .amazon {
+    top: 93%;
   }
 }
