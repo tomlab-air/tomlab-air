@@ -1,162 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
-<url>
-  <loc>https://tomlab-air.com/</loc>
-  <priority>1.0</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/index.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/JobanOdakyu/index.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/ChoshiDentetsu/index.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/HojoTetsudo/index.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/JobanOdakyu/info.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/JobanOdakyu/st0_kitasenju.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/JobanOdakyu/st1_ayase.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/JobanOdakyu/st2_kameari.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/JobanOdakyu/st3_kanamachi.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/JobanOdakyu/st4_matsudo.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/JobanOdakyu/st5_kitamatsudo.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/JobanOdakyu/st6_mabashi.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/JobanOdakyu/st7_shinmatsudo.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/JobanOdakyu/st8_kitakogane.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/JobanOdakyu/st9_minamikashiwa.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/JobanOdakyu/st10_kashiwa.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/JobanOdakyu/st11_kitakashiwa.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/JobanOdakyu/st12_abiko.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/ChoshiDentetsu/info.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/ChoshiDentetsu/st0_choshi.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/ChoshiDentetsu/st1_nakanocho.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/ChoshiDentetsu/st2_kannon.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/ChoshiDentetsu/st3_motochoshi.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/ChoshiDentetsu/st4_kasagamikurohae.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/ChoshiDentetsu/st5_nishiashikajima.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/ChoshiDentetsu/st6_ashikajima.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/ChoshiDentetsu/st7_kimigahama.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/ChoshiDentetsu/st8_inubou.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/ChoshiDentetsu/st9_tokawa.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/HojoTetsudo/info.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/HojoTetsudo/st0_ao.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/HojoTetsudo/st1_abiki.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/HojoTetsudo/st2_tahara.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/HojoTetsudo/st3_hokkeguchi.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/HojoTetsudo/st4_harimashimosato.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/HojoTetsudo/st5_osa.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/HojoTetsudo/st6_harimayokota.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://tomlab-air.com/HojoTetsudo/st7_hojomachi.html</loc>
-  <priority>0.7</priority>
-</url>
+<!--  created with free sitemap generation system www.sitemapxml.jp  -->
+<sitemap>
+  <loc>https://tomlab-air.com/sitemap-top.xml</loc>
+</sitemap>
+<sitemap>
+  <loc>https://tomlab-air.com/JobanOdakyu/sitemap-ChoshiDentetsu.xml</loc>
+</sitemap>
+<sitemap>
+  <loc>https://tomlab-air.com/HojoTetsudo/sitemap-HojoTetsudo.xml</loc>
+</sitemap>
+<sitemap>
+  <loc>https://tomlab-air.com/JobanOdakyu/sitemap-JobanOdakyu.xml</loc>
+</sitemap>
+<sitemap>
+  <loc>https://tomlab-air.com/DonanIsabiriTetsudo/sitemap-DonanIsabiriTetsudo.xml</loc>
+</sitemap>
+<sitemap>
+  <loc>https://tomlab-air.com/Owanisen/sitemap-Owanisen.xml</loc>
+</sitemap>
 
-</urlset>
+</sitemapindex>
