@@ -14,10 +14,15 @@ h1{
   text-align: center;
   font-size: 3rem;
   text-shadow: 2px 2px 10px #432;
-  margin: 30px;
+  margin-top: 30px;
 }
 .a_title{
   color: white;
+}
+.a_sub_title {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .contents{
