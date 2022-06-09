@@ -414,8 +414,8 @@ th.width3 {
     font-size: 0.8rem;
   }
   .s-text {
-    font-size: 1.0rem;
-    width: 110px;
+    font-size: 1.3rem;
+    width: 140px;
   }
   #realtime{
     font-size: 0.7rem;
@@ -482,8 +482,8 @@ th.width3 {
 }
 @media (max-width: 400px) {
   .s-text {
-    font-size: 0.9rem;
-    width: 100px;
+    font-size: 1.0rem;
+    width: 105px;
   }
   .railway {
     font-size: 0.8rem;
