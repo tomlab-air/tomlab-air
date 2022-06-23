@@ -1,4 +1,4 @@
-@charset "UTF-8";
+z@charset "UTF-8";
 
 /* 共通部分
 ------------------------------- */
@@ -33,14 +33,14 @@ h1{
 }
 
 .contents{
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(30,30,30,0.8);
   margin-right: 5%;
   margin-left: 5%;
 }
 .con_title {
   font-family: 'Oswald', sans-serif;
   font-style: italic;
-  color: #333;
+  color: rgb(230,230,230);
   font-size: 2rem;
   text-align: center;
   padding-top: 2%;
@@ -48,6 +48,7 @@ h1{
 .con_sub_title {
   font-size: 1rem;
   text-align: center;
+  color: rgb(230,230,230);
 }
 
 img {
@@ -72,15 +73,15 @@ img {
   border-color: rgb(230,230,230);
 }
 .item {
-  background-color: white;
+  background-color: rgb(30,30,30);
   padding: 3%;
   border-style: solid;
-  border-color: rgb(200,200,200);
+  border-color: rgb(150,150,150);
   border-radius: 2%
 }
 .item_name {
   text-align: center;
-  color: #333;
+  color: rgb(230,230,230);
 }
 
 /* フッター */
