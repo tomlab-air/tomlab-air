@@ -185,7 +185,7 @@ iframe {
       padding: 12px 24px;
     }
     .info a{
-      font-size: 70%;
+      font-size: 0.8rem;
     }
     .button_next {
       font-size: 1.0rem;
@@ -206,7 +206,7 @@ iframe {
         margin-top: 20%;
     }
     .home-content p {
-      font-size: 0.7rem;
+      font-size: 0.8rem;
     }
 
     .desktop-hidden {
