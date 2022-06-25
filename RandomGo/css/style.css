@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
+}
+body{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* 大きな背景画像 */
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+}
+
+.top {
+  margin-top: 14px;
+}
+.top a{
+  font-family: 'Oswald', serif;
+  font-style: italic;
+  color: #fff;
+}
+.top a:hover {
+    color: #0bd;
+}
+
+/* 見出し */
+.page-title {
+    font-size: 3.5rem;
+    font-family: 'Oswald', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-shadow: 2px 2px 5px rgb(20,20,20);
+}
+.sub-title {
+  font-size: 100%;
+  text-shadow: 2px 2px 5px rgb(20,20,20);
+}
+
+.info a{
+  text-shadow: 1px 1px 1px rgb(20,20,20);
+  color: #fff;
+  font-size: 90%;
+}
+.info a:hover {
+    color: #0bd;
+}
+
+/* ボタン */
+.button {
+    font-size: 1.375rem;
+    background: #0bd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+    box-shadow: 2px 2px 5px rgb(20,20,20);
+}
+.button:hover {
+    background: #0090aa;
+}
+.button:active {
+  box-shadow: none;
+  transform: translate3d(2px 2px 5px);
+}
+
+.button_next {
+    margin-top: 14px;
+    font-size: 1.2rem;
+    background: #0bd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px 24px;
+    box-shadow: 2px 2px 5px rgb(20,20,20);
+}
+.button_next:hover {
+    background: #0090aa;
+}
+.button_next:active {
+  box-shadow: none;
+  transform: translate3d(2px 2px 5px);
+}
+
+/* iframe */
+iframe {
+    width: 100%;
+}
+
+/* HEADER
+------------------------------- */
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+    color: #fff;
+}
+.main-nav a:hover {
+    color: #0bd;
+}
+
+/* HOME
+------------------------------- */
+#home {
+    background-image: url(../images/main-bg.jpg);
+    min-height: 100vh;
+}
+#home .page-title {
+    text-transform: none;
+}
+.home-content {
+    text-align: center;
+    margin-top: 10%;
+}
+.home-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+}
+
+/* MAIN
+------------------------------- */
+.frame_center {
+  margin-top: 2vh;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  align: center;
+  width: 97vw;
+  height: 100vh;
+  border: solid;
+  border-color: rgb(200,200,200);
+}
+
+/* info */
+.bg {
+	color:#fff;
+	min-width: 90%;
+  text-shadow: 0.5px 0.5px 0.5px rgb(20,20,20);
+}
+.bg h2 {
+	border-bottom:1px solid #fff;
+}
+
+/* 改行 */
+.desktop-hidden {
+ display: none;
+}
+
+/* モバイル版
+------------------------------- */
+@media (max-width: 600px) {
+    .page-title {
+        font-size: 1.8rem;
+    }
+    .page-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .button {
+      font-size: 1.0rem;
+      padding: 12px 24px;
+    }
+    .info a{
+      font-size: 60%;
+    }
+    .button_next {
+      font-size: 1.0rem;
+      padding: 12px 24px;
+    }
+
+    /* HEADER */
+    .main-nav {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .main-nav li {
+        margin: 0 20px;
+    }
+
+    /* HOME */
+    .home-content {
+        margin-top: 20%;
+    }
+    .home-content p {
+      font-size: 0.7rem;
+    }
+
+    .desktop-hidden {
+     display: block;
+    }
+}
