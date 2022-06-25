@@ -1,6 +1,6 @@
 // URL
-var url_wikipedia = "http://ja.wikipedia.org/wiki/Special:Randompage"
-var url_wiktionary = "http://ja.wiktionary.org/wiki/Special:Randompage"
+var url_wikipedia = "https://ja.wikipedia.org/wiki/Special:Randompage"
+var url_wiktionary = "https://ja.wiktionary.org/wiki/Special:Randompage"
 var url_map = "https://randomstreetview.com/"
 
 // 表示するURL

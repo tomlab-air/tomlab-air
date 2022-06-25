@@ -54,7 +54,7 @@ img {
 }
 
 .info a{
-  text-shadow: 1px 1px 1px rgb(20,20,20);
+  text-shadow: 2px 2px 5px rgb(20,20,20);
   color: #fff;
   font-size: 90%;
 }
