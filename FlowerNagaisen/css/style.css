@@ -1,0 +1,611 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/*--CSS--*/
+html {
+  font-size: 100%;
+}
+body{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    color: #432;
+}
+
+h1,.sub{
+  background: linear-gradient(to right,rgb(255,255,255),rgb(3,166,98));
+  text-align: center;
+  color: white;
+}
+h1{
+  font-family: 'Oswald', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 3rem;
+  text-shadow: 2px 2px 10px #432;
+}
+.sub{
+  text-shadow: 1px 1px 1px #432;
+}
+.a_title{
+  color: white;
+}
+.caution {
+  background-color: #FFFFCC;
+  text-align: right;
+  padding-right: 2%;
+}
+
+#realtime{
+  text-align: right;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.info {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  right:  2%;
+  top: 30px;
+  filter: drop-shadow(1px 1px 1px #432);
+}
+.info:hover {
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+
+.centering_parent {
+    /* background-color:  #ddd; */
+		width: 100%;
+    min-height: 84vh;
+		top: 0px;
+    position: relative;
+}
+
+/* 中央の線路 */
+.centering_item {
+   position: absolute;
+   top:  0%;
+   bottom: 0%;
+   left:  0;
+   right:  0;
+   margin:  auto;
+	 width: 10px;
+ 	 height: 90%;
+   background-color: rgb(3,166,98);
+}
+
+/* 駅の丸 */
+.radius {
+	position: absolute;
+	border: 3px solid #432;
+	bottom:  0;
+	left:  0;
+	right:  0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: auto;
+	background-color: white;
+}
+.cr0 {
+	top: -90.0%;
+}
+.cr1 {
+	top: -78.75%;
+}
+.cr2 {
+	top: -67.50%;
+}
+.cr3 {
+	top: -56.25%;
+}
+.cr4 {
+	top: -45.00%;
+}
+.cr5 {
+	top: -33.75%;
+}
+.cr6 {
+	top: -22.50%;
+}
+.cr7 {
+	top: -11.25%;
+}
+.cr8 {
+	top:   0.00%;
+}
+.cr9 {
+	top:  11.25%;
+}
+.cr10 {
+	top:  22.50%;
+}
+.cr11 {
+	top:  33.75%;
+}
+.cr12 {
+	top:  45.00%;
+}
+.cr13 {
+	top:  56.25%;
+}
+.cr14 {
+	top:  67.50%;
+}
+.cr15 {
+	top:  78.75%;
+}
+.cr16 {
+	top:  90.0%;
+}
+
+/* 駅名 */
+.s-text {
+	position: absolute;
+	top:   -5%;
+	bottom:  0;
+	left:  0;
+	right:  300px;
+  width: 150px;
+  height: 0px;
+  margin: auto;
+	font-size: 150%;
+	text-align: right;
+}
+.as-text {
+  color: #432;
+}
+.s-text a:hover {
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+.st0 {
+	top: -95.0%;
+}
+.st1 {
+	top: -83.75%;
+}
+.st2 {
+	top: -72.50%;
+}
+.st3 {
+	top: -61.25%;
+}
+.st4 {
+	top: -50.00%;
+}
+.st5 {
+	top: -38.75%;
+}
+.st6 {
+	top: -27.50%;
+}
+.st7 {
+	top: -16.25%;
+}
+.st8 {
+	top:  -5.00%;
+}
+.st9 {
+	top:   6.25%;
+}
+.st10 {
+	top:  17.50%;
+}
+.st11 {
+	top:  28.75%;
+}
+.st12 {
+	top:  40.00%;
+}
+.st13 {
+	top:  51.25%;
+}
+.st14 {
+	top:  62.50%;
+}
+.st15 {
+	top:  73.75%;
+}
+.st16 {
+	top:  85.00%;
+}
+
+/* 電車の位置 */
+.t_icon_down {
+	position: absolute;
+  top:   -90%;
+	bottom:  0;
+	left:  90px;
+	right:  0;
+  margin: auto;
+  width: 32px;
+  height: 32px;
+  display: none;
+}
+.t_icon_up {
+	position: absolute;
+  top:   -90%;
+	bottom:  0;
+	left:  0;
+	right:  90px;
+  margin: auto;
+  width: 32px;
+  height: 32px;
+  display: none;
+}
+
+/* 吹き出し */
+.balloon_down {
+ position: absolute;
+ top:   -90%;
+ bottom:  0;
+ left:  90px;
+ right:  0;
+ margin: auto;
+ width: 80px;
+ height: 25px;
+ color: #555;
+ font-size: 60%;
+ background: #e0edff;
+ text-align: center;
+ padding: 5px;
+ border-radius: 10%;
+ display: none;
+}
+.balloon_down:before {
+ content: "";
+ position: absolute;
+ top: -30px;
+ left: 50%;
+ margin-left: -15px;
+ border: 15px solid transparent;
+ border-bottom: 15px solid #e0edff;
+}
+.balloon_down p {
+ margin: 0;
+ padding: 0;
+}
+.balloon_up {
+ position: absolute;
+ top:   -90%;
+ bottom:  0;
+ left:  0;
+ right:  90px;
+ margin: auto;
+ width: 80px;
+ height: 25px;
+ color: #555;
+ font-size: 60%;
+ background: #e0edff;
+ text-align: center;
+ padding: 5px;
+ border-radius: 10%;
+ display: none;
+}
+.balloon_up:before {
+ content: "";
+ position: absolute;
+ top: -30px;
+ left: 50%;
+ margin-left: -15px;
+ border: 15px solid transparent;
+ border-bottom: 15px solid #e0edff;
+}
+.balloon_up p {
+ margin: 0;
+ padding: 0;
+}
+
+/* フッター */
+footer {
+  position: relative;
+  bottom: 0;
+}
+.f_wrapper {
+  position: absolute;
+  right: 0;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+.c_fotter {
+  border-style: solid;
+  border-width: 0.5px 0 0 0;
+}
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+/* info */
+.bg {
+	color:#432;
+	min-width: 90%;
+}
+
+.bg h2 {
+	border-bottom:1px solid #432;
+}
+.railway {
+  position: absolute;
+  top: 110px;
+  width: 200px;
+  left: 9%;
+  text-align: center;
+  font-size: 150%;
+  border: solid;
+  border-width: 0 0 1px 0;
+}
+.railway_sub {
+  top: 150px;
+  border: 0;
+  font-size: 90%;
+  text-decoration: none;
+}
+
+.capture {
+  position: relative;
+  width: 30%;
+  height: 30%;
+  border-style: solid;
+  border-width: 0.5px 0.5px 0.5px 0.5px;
+}
+.pcapture {
+  text-align: center;
+}
+
+
+/* table */
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+}
+th, td {
+  border: 1px solid #333;
+  padding: 5px;
+}
+th {
+  background-color: #CCCCCC;
+}
+table td {
+  background: #eee;
+}
+table tr:nth-child(odd) td {
+  background: #fff;
+}
+th.width1 {
+  width: 10%;
+}
+th.width2 {
+  width: 40%;
+}
+th.width3 {
+  width: 40%;
+}
+
+.t_station {
+  font-size: 160%;
+  font-weight: bold;
+  text-align: center;
+}
+.t_day {
+  font-size: 140%;
+  font-weight: bold;
+  text-align: center;
+}
+.t_weekday {
+  color: navy;
+}
+.t_holiday {
+  color: brown;
+}
+
+.pr {
+  position:relative;
+}
+.amazon {
+  position: absolute;
+  bottom: 0%;
+  right: 2%;
+  font-size: 120%;
+  color: #432;
+}
+.amalink {
+  color: rgb(50,122,181);
+}
+.amalink:hover {
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+
+@media (max-width: 850px) {
+  .railway {
+    left: 66%;
+    right: 10%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    height: auto;
+  }
+  h1{
+    font-size: 2.4rem;
+  }
+  .sub {
+    font-size: 0.8rem;
+  }
+  .caution {
+    font-size: 0.6rem;
+    height: 14px;
+  }
+  .s-text {
+    font-size: 1.3rem;
+    width: 140px;
+  }
+  #realtime{
+    font-size: 0.7rem;
+  }
+  .info {
+    width: 24px;
+    height: 24px;
+    top: 20px;
+  }
+  .radius {
+  	border: 2px solid #432;
+    width: 20px;
+    height: 20px;
+  }
+  .t_icon_down {
+    left:  70px;
+    width: 24px;
+    height: 24px;
+  }
+  .t_icon_up {
+    right: 70px;
+    width: 24px;
+    height: 24px;
+  }
+  .balloon_down {
+    left:  70px;
+  }
+  .balloon_down:before {
+    top: -25px;
+  }
+  .balloon_up {
+    right:  70px;
+  }
+  .balloon_up:before {
+    top: -25px;
+  }
+  footer {
+    font-size: 0.8rem;
+  }
+  .bg {
+    font-size: 0.8rem;
+  }
+  .railway {
+    font-size: 1.0rem;
+    top: 90px;
+    width: 130px;
+    left: 66%;
+    right: 10%;
+  }
+  .railway_sub {
+    top: 118px;
+    font-size: 80%;
+  }
+  .capture {
+    width: 60%;
+    height: 60%;
+  }
+  .amazon {
+    font-size:  90%;
+  }
+  .pr {
+    min-height: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .s-text {
+    font-size: 1.0rem;
+    width: 105px;
+    right: 230px;
+  }
+  .railway {
+    font-size: 0.8rem;
+    top: 90px;
+    width: 105px;
+    left: 66%;
+    right: 10%;
+  }
+  .railway_sub {
+    top: 112px;
+    font-size: 70%;
+  }
+}
+
+@media (max-height: 500px) {
+  .radius {
+  	border: 2px solid #432;
+    width: 15px;
+    height: 15px;
+  }
+  .s-text {
+  	font-size: 90%;
+  }
+  .st0 {
+  	top: -96.0%;
+  }
+  .st1 {
+  	top: -84.75%;
+  }
+  .st2 {
+  	top: -73.50%;
+  }
+  .st3 {
+  	top: -62.25%;
+  }
+  .st4 {
+  	top: -51.00%;
+  }
+  .st5 {
+  	top: -39.75%;
+  }
+  .st6 {
+  	top: -28.50%;
+  }
+  .st7 {
+  	top: -17.25%;
+  }
+  .st8 {
+  	top:  -6.00%;
+  }
+  .st9 {
+  	top:   5.25%;
+  }
+  .st10 {
+  	top:  16.50%;
+  }
+  .st11 {
+  	top:  27.75%;
+  }
+  .st12 {
+  	top:  39.00%;
+  }
+  .st13 {
+  	top:  50.25%;
+  }
+  .st14 {
+  	top:  61.5%;
+  }
+  .st15 {
+  	top:  72.75%;
+  }
+  .st16 {
+  	top:  84.0%;
+  }
+  .t_icon_down {
+    width: 16px;
+    height: 16px;
+  }
+  .t_icon_up {
+    width: 16px;
+    height: 16px;
+  }
+  .railway {
+    font-size: 0.8rem;
+    top: 110px;
+    width: 105px;
+    left: 66%;
+    right: 10%;
+  }
+  .railway_sub {
+    top: 132px;
+    font-size: 70%;
+  }
+}
