@@ -171,6 +171,9 @@ iframe {
 	color:#fff;
 	min-width: 90%;
   text-shadow: 0.5px 0.5px 0.5px rgb(20,20,20);
+  background-color: rgba(30,30,30,0.8);
+  margin-right: 5%;
+  margin-left: 5%;
 }
 .bg h2 {
 	border-bottom:1px solid #fff;
