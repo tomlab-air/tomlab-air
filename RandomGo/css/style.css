@@ -25,6 +25,7 @@ img {
 /* 大きな背景画像 */
 .big-bg {
     background-size: cover;
+    background-attachment: fixed;
     background-position: center top;
 }
 
@@ -136,6 +137,7 @@ iframe {
 .home-content {
     text-align: center;
     margin-top: 10%;
+    min-height: 90vh;
 }
 .home-content p {
     font-size: 1.125rem;
