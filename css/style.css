@@ -54,6 +54,13 @@ h1{
   text-align: center;
   padding-top: 2%;
 }
+.con_title_2 {
+  font-family: 'Oswald', sans-serif;
+  color: rgb(230,230,230);
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2%;
+}
 .con_sub_title {
   font-size: 1rem;
   text-align: center;
