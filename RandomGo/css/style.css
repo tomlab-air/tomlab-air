@@ -185,6 +185,25 @@ iframe {
  display: none;
 }
 
+.pr {
+  position:relative;
+}
+.amazon {
+  position: absolute;
+  bottom: 0%;
+  right: 2%;
+  font-size: 120%;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgb(20,20,20);
+}
+.amalink {
+  color: rgb(103,181,245);
+}
+.amalink:hover {
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+
 /* モバイル版
 ------------------------------- */
 @media (max-width: 600px) {
@@ -226,5 +245,12 @@ iframe {
 
     .desktop-hidden {
      display: block;
+    }
+
+    .amazon {
+      font-size:  90%;
+    }
+    .pr {
+      min-height: 30px;
     }
 }
