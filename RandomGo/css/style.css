@@ -197,7 +197,7 @@ iframe {
   text-shadow: 2px 2px 5px rgb(20,20,20);
 }
 .amalink {
-  color: rgb(103,181,245);
+  color: #0bd;
 }
 .amalink:hover {
   opacity: 0.6;
